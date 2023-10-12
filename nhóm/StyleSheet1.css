@@ -7,9 +7,15 @@
 }
 
 /*FOOTER*/
+.Footer-main {
+    background-color: #333;
+}
+
 footer {
     background-color: #333;
     color: white;
+    margin-left: 200px;
+    margin-right: 200px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap; /* Cho phép wrapping để tạo các phần có chiều cao bằng nhau */
