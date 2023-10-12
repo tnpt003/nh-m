@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HtmlPage1.html" />
+    <Content Include="hình\big banner\5313737.jpg" />
     <Content Include="hình\logo-b.png" />
     <Content Include="hình\logo-header-gov.png" />
     <Content Include="hình\logo_while_2x.png" />

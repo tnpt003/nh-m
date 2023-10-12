@@ -5,6 +5,76 @@
     position: sticky;
     top: 0; /* Adjust this value as needed */
 }
+.big-banner {
+    overflow: hidden; /* Hide any overflowing content */
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+    .big-banner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* The image will be sized to cover the container, maintaining its aspect ratio */
+    }
+
+
+
+
+/*CONTENT*/
+.content-section1 {
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.content-section2 {
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content-section3 {
+    overflow: hidden; /* Hide any overflowing content */
+    display: flex; /* Enable flexbox layout */
+    flex-direction: column;
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 150px;
+}
+    .content-section3 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* The image will be sized to cover the container, maintaining its aspect ratio */
+    }
+
+.content-section4 {
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.content-section5 {
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+} 
+    
+
+
+
+
+
+
+
+
+
+
 
 /*FOOTER*/
 .Footer-main {
@@ -14,8 +84,8 @@
 footer {
     background-color: #333;
     color: white;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 30px;
+    margin-right: 10px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap; /* Cho phép wrapping để tạo các phần có chiều cao bằng nhau */
