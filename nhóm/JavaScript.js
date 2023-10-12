@@ -1,12 +1,21 @@
-﻿//Footer
-// Get references to the "More" link and the additional content
-var toggleMore = document.getElementById("toggleMore");
-var additionalContent = document.getElementById("additionalContent");
-var isOpen = false; // Track the state of the content
+﻿let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
 
-// Function to toggle the visibility of the additional content
-toggleMore.addEventListener("click", function () {
-    isOpen = !isOpen; // Toggle the state
-    additionalContent.style.display = isOpen ? "block" : "none"; // Show or hide based on state
-    toggleMore.textContent = isOpen ? "Thu gọn" : "Xem Thêm"; // Change link text
-});
+function showSlide(index) {
+    if (index >= 0 && index < slides.length) {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = index;
+        slides[currentSlide].classList.add('active');
+    }
+}
+
+function nextSlide() {
+    showSlide(currentSlide + 1);
+}
+
+function prevSlide() {
+    showSlide(currentSlide - 1);
+}
+
+// Automatically advance the slider
+setInterval(nextSlide, 3000); // Change slide every 3 seconds

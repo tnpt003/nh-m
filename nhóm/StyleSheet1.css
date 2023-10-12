@@ -1,4 +1,7 @@
-﻿.category-container {
+﻿body{
+    background-color:whitesmoke;
+}
+.category-container {
     background-color: whitesmoke;
     border: 1px solid #ddd;
     padding: 10px;
@@ -22,24 +25,90 @@
 
 
 /*CONTENT*/
+.section-title1 {
+    background-color: wheat;
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 .content-section1 {
     text-align: left; /* Optional for centering text horizontally */
     padding: 20px; /* Optional padding for spacing */
     margin-left: 50px;
     margin-right: 50px;
+    display: flex;
+    margin: 0 12px 0 0;
+    position: relative;
+
 }
-.content-section2 {
+.product {
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+    .product img {
+        max-width: 200px;
+        max-height: 200px;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .product p, .product strong {
+        text-align: center;
+        margin: 10px;
+    }
+
+
+.section-title2 {
     text-align: left; /* Optional for centering text horizontally */
     padding: 20px; /* Optional padding for spacing */
     margin-left: 50px;
     margin-right: 50px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.content-section2 {
+    text-align: center; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
 }
 
+.category {
+    display: flex;
+    align-items: center;
+    padding: 20px; /* Add spacing between categories */
+}
+
+    .category p {
+        margin: 0px; /* Remove default paragraph margins */
+    }
+
+    .category img {
+        margin-left: 10px; /* Add spacing between text and images */
+    }
+
+
+.section-title3 {
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
 .content-section3 {
+    
     overflow: hidden; /* Hide any overflowing content */
     display: flex; /* Enable flexbox layout */
     flex-direction: column;
-    text-align: left; /* Optional for centering text horizontally */
+    text-align: center; /* Optional for centering text horizontally */
     padding: 20px; /* Optional padding for spacing */
     margin-left: 50px;
     margin-right: 50px;
@@ -51,21 +120,184 @@
         object-fit: cover; /* The image will be sized to cover the container, maintaining its aspect ratio */
     }
 
+.section-title4 {
+    background-color: white;
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
 .content-section4 {
     text-align: left; /* Optional for centering text horizontally */
     padding: 20px; /* Optional padding for spacing */
     margin-left: 50px;
     margin-right: 50px;
+    display: flex; /* Enable flexbox layout */
+}
+.product1 {
+    flex: 0 0 calc(30% - 80px);
+    justify-content: space-between;
+    height: 100%;
+    background-color: aqua;
+    padding: 10px;
+    margin-left: 10px;
+}
+.product1:nth-child(2) {
+    background-color: yellow;
+    padding: 10px;
+}
+.product1:nth-child(3) {
+    background-color: orange;
+    padding: 10px;
+}
+.product1:nth-child(4) {
+    background-color: lightgreen;
+    padding: 10px;
 }
 
+.section-title5 {
+    background-color: whitesmoke;
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
 .content-section5 {
     text-align: left; /* Optional for centering text horizontally */
     padding: 20px; /* Optional padding for spacing */
     margin-left: 50px;
     margin-right: 50px;
-} 
-    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Create flexible grid columns */
+    gap: 10px; /* Adjust the gap as needed */
+}
+.image-container1 {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    padding: 10px;
+}
+    .image-container1 img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
 
+.section-title6 {
+    float: left;
+    background-color: white;
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+.content-section6 {
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.trend-item {
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+    .trend-item img {
+        max-width: 100%;
+    }
+
+    .trend-item p {
+        margin-top: 10px;
+    }
+
+.section-title7 {
+    background-color: whitesmoke;
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.content-section7 {
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Create flexible grid columns */
+    gap: 10px; /* Adjust the gap as needed */
+}
+    .content-section7 img{
+        height: 150px;
+        width: 100%;
+    }
+
+    .section-title8 {
+        background-color: whitesmoke;
+        text-align: left; /* Optional for centering text horizontally */
+        padding: 20px; /* Optional padding for spacing */
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+.slider {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+    .slider img {
+        max-width: 100%;
+        max-height: 200px;
+    }
+.slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+    .slide.active {
+        opacity: 1;
+    }
+.section-title9 {
+    background-color: whitesmoke;
+    text-align: left; /* Optional for centering text horizontally */
+    padding: 20px; /* Optional padding for spacing */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.content-section9 {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+}
+.flex-container {
+    display: flex;
+    flex-direction: row; /* Arrange items in a row */
+    flex-wrap: wrap; /* Allow items to wrap */
+    gap: 10px; /* Adjust the gap as needed */
+    margin-bottom: 20px;
+}
+    .flex-container p {
+        flex: 1; /* Distribute available space equally */
+        background-color: lightgray; /* Add a background color for clarity */
+        padding: 10px;
+        margin: 0;
+    }
 
 
 
