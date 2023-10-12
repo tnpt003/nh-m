@@ -68,7 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HtmlPage1.html" />
+    <Content Include="hình\24h trend\1696920350-606-local.jpg" />
+    <Content Include="hình\24h trend\1696950787-581-local.jpg" />
+    <Content Include="hình\24h trend\1696996463-574-local.jpg" />
+    <Content Include="hình\24h trend\HCCTGDDnew1-285x350.jpg" />
     <Content Include="hình\big banner\5313737.jpg" />
+    <Content Include="hình\Chuyên trang thương hiệu\logo-bieu-tuong-thoi-trang-chanel.png" />
+    <Content Include="hình\Chuyên trang thương hiệu\logo-hang-thoi-trang-noi-tieng-stone-island.png" />
+    <Content Include="hình\Chuyên trang thương hiệu\mau-logo-thoi-trang-dep-fendi.png" />
     <Content Include="hình\Chuỗi mới deal khủng\760-400-760x400-1.jpg" />
     <Content Include="hình\Chuỗi mới deal khủng\760x400-760x400-10.jpg" />
     <Content Include="hình\Chuỗi mới deal khủng\760X400-760x400-2.jpg" />
