@@ -1,0 +1,64 @@
+﻿.category-container {
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: sticky;
+    top: 0; /* Adjust this value as needed */
+}
+
+/*FOOTER*/
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Cho phép wrapping để tạo các phần có chiều cao bằng nhau */
+    justify-content: space-between;
+}
+
+/* CSS cho từng phần trong footer */
+.footer-section {
+    flex: 1; /* Phân chia không gian có sẵn một cách đều đặn cho các phần */
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử trong mỗi phần theo chiều dọc */
+}
+
+    .footer-section h3 {
+        font-size: 18px;
+    }
+
+    .footer-section p {
+        font-size: 14px;
+    }
+
+    .footer-section img {
+        max-width: 100%;  /*Allow images to scale down to fit */
+        max-height: 100%;
+    }
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .image-container img {
+        max-width: 100%;
+        max-height: 100%;
+        margin: 5px; /* Add some margin for spacing */
+    }
+
+.row-1 {
+    justify-content: space-between;
+}
+
+.row-2 {
+    flex-wrap: wrap;
+}
+
+
+.copyright {
+    background-color: whitesmoke; /* Set the background color you want */
+    color: black; /* Text color */
+    padding: 10px; /* Add padding for spacing */
+}
