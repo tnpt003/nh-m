@@ -8,6 +8,39 @@
     position: sticky;
     top: 0; /* Adjust this value as needed */
 }
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+/*------------------------------nav------------------*/
+nav {
+    background-color: white;
+}
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        nav ul li, a {
+            color: black;
+        }
+/*------------------menu bar------------------------*/
+.menu-bar {
+    background-color: grey;
+    padding: 12px 0;
+}
+
+    .menu-bar ul {
+        display: flex;
+        justify-content: space-between;
+    }
 .big-banner {
     overflow: hidden; /* Hide any overflowing content */
     display: flex; /* Enable flexbox layout */
