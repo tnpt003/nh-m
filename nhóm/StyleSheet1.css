@@ -1,17 +1,27 @@
 ﻿body{
     background-color:whitesmoke;
 }
-.category-container {
-    background-color: whitesmoke;
-    border: 1px solid #ddd;
-    padding: 10px;
-    position: sticky;
-    top: 0; /* Adjust this value as needed */
-}
 .container {
     max-width: 1200px;
     margin: auto;
 }
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+    .input-container i {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translate(0, -50%);
+        color: #999;
+    }
+
+    .input-container input {
+        padding-left: 30px; /* Adjust this value to suit your design */
+    }
+
 
 header {
     background-color: black;
@@ -24,6 +34,7 @@ nav {
 
     nav ul {
         display: flex;
+        list-style: none;
         justify-content: space-between;
         align-items: center;
     }
@@ -36,11 +47,38 @@ nav {
     background-color: grey;
     padding: 12px 0;
 }
-
     .menu-bar ul {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        list-style: none;
     }
+        .menu-bar ul li {
+            position: relative;
+        }
+.menu-item {
+    position: relative;
+    cursor: pointer;
+}
+.hidden-content {
+    background-color: dimgray;
+    position: absolute;
+    background-color: white;
+    display: none;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.menu-item:hover .hidden-content {
+    display: block;
+}
+
+
+
 .big-banner {
     overflow: hidden; /* Hide any overflowing content */
     display: flex; /* Enable flexbox layout */

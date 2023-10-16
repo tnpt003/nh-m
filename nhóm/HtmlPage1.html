@@ -3,52 +3,102 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="StyleSheet1.css" />
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>NHÓM</title>
 </head>
 <body>
-    <!--HEADER-->
-    <!--<div class="category-container">
-        <ul class="product-categories">
-            <li>Category 1</li>
-            <li>Category 2</li>
-            <li>Category 3</li>-->
-    <!-- Add more categories here -->
-    <!--</ul>
-    </div>-->
     <header>
         <img src="hình/Header/logo.png" />
     </header>
-        <nav>
-            <div class="container">
-                <ul class="product-categories">
-                    <li><a href=""><img style="width:80px" src="hình/Header/logo.png" alt="" /></a></li>
-                    <li><a href="">Hồ Chí Minh</a></li>
-                    <li><input type="text" /></li>
-                    <li><a href=""></a><button>Giỏ hàng</button></li>
-                    <li><a href="">Tài khoản & Đơn hàng</a></li>
-                    <li><a href="">24h Công nghệ</a></li>
-                    <li><a href="">Hỏi đáp</a></li>
-                    <li><a href="">Game App</a></li>
-
+    <nav>
+        <div class="container">
+            <ul class="product-categories">
+                <li><a href=""><img style="width:80px" src="hình/Header/logo.png" alt="" /></a></li>
+                <li><a href="">Hồ Chí Minh</a></li>
+                <li>
+                    <div class="input-container">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </li>
+                <li><a href=""></a><button><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</button></li>
+                <li><a href="">Tài khoản & Đơn hàng</a></li>
+                <li><a href="">24h Trend</a></li>
+                <li><a href="">Hỏi đáp</a></li>
+                <li><a href="">App shop</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li class="menu-item">
+                        <a href="#">Áo khoác</a><i class="fa-solid fa-chevron-down"></i>
+                        <div class="hidden-content">
+                            <p>Áo khoác Ni</p>
+                            <p>Áo khoác Dù</p>
+                            <p>Áo khoác Kaki</p>
+                            <p>Áo khoác Nam</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Áo thun</a><i class="fa-solid fa-chevron-down"></i>
+                        <div class="hidden-content">
+                            <p>Áo thun tay ngắn</p>
+                            <p>Áo thun tay dài</p>
+                            <p>Áo thun Polo</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Sơ mi</a><i class="fa-solid fa-chevron-down"></i>
+                        <div class="hidden-content">Sơ mi
+                            <p>Sơ mi tay ngắn</p>
+                            <p>Sơ mi tay dài</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Quần dài</a><i class="fa-solid fa-chevron-down"></i>
+                        <div class="hidden-content">Quần dài
+                            <p>Quần Kaki</p>
+                            <p>Quần Tây</p>
+                            <p>Quần dài</p>
+                            <p>Quần Jean</p>
+                            <p>Quần Jagger Thun</p>
+                            <p>Quần Jagger Kaki</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Quần short</a><i class="fa-solid fa-chevron-down"></i>
+                        <div class="hidden-content">
+                            <p>Quần Short Kaki</p>
+                            <p>Quần Short Thun</p>
+                            <p>Quần Short Jean</p>
+                            <p>Quần Short Tây</p>
+                            <p>Quần Short Dù</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Phụ kiện</a><i class="fa-solid fa-chevron-down"></i>
+                        <div class="hidden-content">
+                            <p>Ví da</p>
+                            <p>Dây vịt</p>
+                            <p>Nơ - Cà Vạt</p>
+                            <p>Vớ (Tất)</p>
+                            <p>Nón</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">All</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">Sale</a>
+                    </li>
                 </ul>
             </div>
-        </nav>
-        <section class="menu-bar">
-            <div class="container">
-                <div class="menu-bar-content">
-                    <ul>
-                        <li><a href="">Áo khoác</a></li>
-                        <li><a href="">Áo thun</a></li>
-                        <li><a href="">Sơ mi</a></li>
-                        <li><a href="">Quần dài</a></li>
-                        <li><a href="">Quần short</a></li>
-                        <li><a href="">Phụ kiện</a></li>
-                        <li><a href="">All</a></li>
-                        <li><a href="">Sale</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+        </div>
+    </section>
     <div class="big-banner">
         <img src="hình/big banner/5313737.jpg" />
     </div>
@@ -133,18 +183,22 @@
         <h3>DỊCH VỤ TIỆN ÍCH</h3>
         <div class="content-section4">
             <div class="product1">
+                <i class="fa-solid fa-mobile-screen-button"></i>
                 <p>Mua mã thẻ cào</p>
                 <strong>Gíảm giá 2% cho mệnh giá từ 100.000 trở lên</strong>
             </div>
             <div class="product1">
+                <i class="fa-solid fa-bell-concierge"></i>
                 <p>Dịch vụ trả góp</p>
                 <strong>5% trong 1 tháng cho sản phẩm 500.000 trở lên</strong>
             </div>
             <div class="product1">
+                <i class="fa-solid fa-taxi"></i>
                 <p>Shipping tận nhà</p>
                 <strong>Freeship</strong>
             </div>
             <div class="product1">
+                <i class="fa-solid fa-tag"></i>
                 <p>thẻ giảm giá</p>
                 <strong>Áp dụng trong 3 tháng kể từ khi được nhận</strong>
             </div>
@@ -191,43 +245,43 @@
             </div>
             <div class="image-container1">
                 <img src="hình/Gợi ý hôm nay/2_d0c88d0a8dd341a29b72fea28dbb1391_master.jpg" />
-                <p>Móc khóa da bò Kenta PMK0001</p>
-                <strong>19,000₫</strong>
+                <p>Quần Kaki Dài Slimfit Nam QKK0048</p>
+                <strong>350,000₫</strong>
             </div>
             <div class="image-container1">
                 <img src="hình/Gợi ý hôm nay/28_7f3fbbe92354429bacccd09bea0b3f59_master.jpg" />
-                <p>Móc khóa da bò Kenta PMK0001</p>
-                <strong>19,000₫</strong>
+                <p>Vớ Cotton Cổ Ngắn PVO0001</p>
+                <strong>39,000₫</strong>
             </div>
             <div class="image-container1">
                 <img src="hình/Gợi ý hôm nay/29_636e67277ca34eecaf0f9115d556780f_master.jpg" />
-                <p>Móc khóa da bò Kenta PMK0001</p>
-                <strong>19,000₫</strong>
+                <p>Quần Tây Nam Slimfit Xám Chì QTA0036</p>
+                <strong>320,000₫</strong>
             </div>
             <div class="image-container1">
                 <img src="hình/Gợi ý hôm nay/2a_9c6f64259c5b4eb3856f7578861db397_master.jpg" />
-                <p>Móc khóa da bò Kenta PMK0001</p>
-                <strong>19,000₫</strong>
+                <p>Áo Thun Raglan Form Boxy ATN0151</p>
+                <strong>295,000₫</strong>
             </div>
             <div class="image-container1">
                 <img src="hình/Gợi ý hôm nay/6_e778851a63dd4563a25b1c33c4154387_master.jpg" />
-                <p>Móc khóa da bò Kenta PMK0001</p>
-                <strong>19,000₫</strong>
+                <p>Áo Thun Unisex Saigonnese ATN0147</p>
+                <strong>295,000₫</strong>
             </div>
             <div class="image-container1">
                 <img src="hình/Gợi ý hôm nay/hma00252_2a1c8c08a6e94a43a4fcbd47b2942e25_master.jpg" />
-                <p>Móc khóa da bò Kenta PMK0001</p>
-                <strong>19,000₫</strong>
+                <p>Ví da nam cao cấp PVN0016</p>
+                <strong>395,000₫</strong>
             </div>
             <div class="image-container1">
                 <img src="hình/Gợi ý hôm nay/pnn0002_xl_eee6d499c1f249d199919522dcca1165_1024x1024.jpg" />
-                <p>Móc khóa da bò Kenta PMK0001</p>
-                <strong>19,000₫</strong>
+                <p>Móc Nơ khóa da bò Kenta PMK0001</p>
+                <strong>50,000₫</strong>
             </div>
             <div class="image-container1">
                 <img src="hình/Gợi ý hôm nay/quan-kaki_3b2d61b5ebd24464b4995616b1231c71_master.jpg" />
-                <p>Móc khóa da bò Kenta PMK0001</p>
-                <strong>19,000₫</strong>
+                <p>Quần Jean Skinny Nam QJD0061</p>
+                <strong>450,000₫</strong>
             </div>
         </div>
     </div>
@@ -236,15 +290,12 @@
         <div class="content-section6">
             <div class="trend-item">
                 <img src="hình/24h trend/1696920350-606-local.jpg" />
-                <!--<p>Bà xã Tuấn Hưng đi đám cưới, mặc chiếc váy ...</p>-->
             </div>
             <div class="trend-item">
                 <img src="hình/24h trend/1696950787-581-local.jpg" />
-                <!--<p>"Nữ hoàng bình dân" Tăng Thanh Hà mặc ...</p>-->
             </div>
             <div class="trend-item">
                 <img src="hình/24h trend/1696996463-574-local.jpg" />
-                <<!--p>1001 cách phối chân váy lụa Sat...</p>-->
             </div>
         </div>
     </div>
@@ -296,8 +347,7 @@
                 <p>Lịch sử mua hàng .</p>
                 <p>Tìm hiểu về mua trả góp .</p>
                 <p>Chính sách bảo hành .</p>
-                <!-- Add a "more" link that will reveal/hide content -->
-                <p class="more-link" id="toggleMore">Xem Thêm</p>
+                <p class="more-link" id="toggleMore">Xem Thêm<i class="fa-solid fa-chevron-down"></i></p>
                 <!-- Initially hidden content -->
                 <div id="additionalContent" style="display: none;">
                     <p>Lịch sử mua hàng.</p>
@@ -314,7 +364,6 @@
                     <p>Chất lượng phục vụ .</p>
                     <p>Cảnh báo giả mạo .</p>
                     <p>Chính sách khui hộp sản phẩm Apple .</p>
-                    <!-- Add more content here -->
                 </div>
             </div>
             <div class="footer-section">
