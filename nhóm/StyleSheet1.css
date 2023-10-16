@@ -1,71 +1,77 @@
-﻿body{
-    background-color:whitesmoke;
+﻿body {
+    background-color: whitesmoke;
 }
+
 .container {
     max-width: 1200px;
     margin: auto;
 }
-.input-container {
-    position: relative;
-    display: inline-block;
-}
 
-    .input-container i {
-        position: absolute;
-        top: 50%;
-        left: 10px;
-        transform: translate(0, -50%);
-        color: #999;
-    }
-
-    .input-container input {
-        padding-left: 30px; /* Adjust this value to suit your design */
-    }
+/*<!--~~~~~~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~~~~~~-->*/
 
 
 header {
     background-color: black;
     text-align: center;
 }
-/*------------------------------nav------------------*/
+
+/* Navigation Styles */
 nav {
     background-color: white;
 }
 
-    nav ul {
-        display: flex;
-        list-style: none;
-        justify-content: space-between;
-        align-items: center;
-    }
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        nav ul li, a {
-            color: black;
-        }
-/*------------------menu bar------------------------*/
+nav ul li, 
+nav a {
+    color: black;
+}
+
+/* Input Container Styles */
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+    color: #999;
+}
+
+.input-container input {
+    padding-left: 30px; /* Adjust this value to suit your design */
+}
+/* Menu Bar Styles */
 .menu-bar {
     background-color: grey;
     padding: 12px 0;
 }
-    .menu-bar ul {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        list-style: none;
-    }
-        .menu-bar ul li {
-            position: relative;
-        }
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
 .menu-item {
     position: relative;
     cursor: pointer;
 }
+
 .hidden-content {
-    background-color: dimgray;
-    position: absolute;
     background-color: white;
+    position: absolute;
     display: none;
-    padding: 10px;
+    padding: 5px;
     top: 100%;
     left: 0;
     width: 100%;
@@ -77,44 +83,34 @@ nav {
     display: block;
 }
 
-
-
+/* Big Banner Styles */
 .big-banner {
-    overflow: hidden; /* Hide any overflowing content */
-    display: flex; /* Enable flexbox layout */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px; /* Adjust the height to your needs */
 }
 
     .big-banner img {
         width: 100%;
         height: 100%;
-        object-fit: cover; /* The image will be sized to cover the container, maintaining its aspect ratio */
+        object-fit: cover;
     }
 
+/*<!--~~~~~~~~~~~~~~~~~~~~~CONTENTS~~~~~~~~~~~~~~~~~~~~~-->*/
 
-
-
-/*CONTENT*/
 .section-title1 {
     background-color: wheat;
-    text-align: left; /* Optional for centering text horizontally */
-    padding: 20px; /* Optional padding for spacing */
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    padding: 20px;
+    margin: 20px 50px;
 }
-.content-section1 {
-    text-align: left; /* Optional for centering text horizontally */
-    padding: 20px; /* Optional padding for spacing */
-    margin-left: 50px;
-    margin-right: 50px;
-    display: flex;
-    margin: 0 12px 0 0;
-    position: relative;
 
+.content-section1 {
+    display: flex;
+    margin: 20px;
 }
+
 .product {
     background-color: white;
     text-align: center;
@@ -125,7 +121,6 @@ nav {
         max-width: 200px;
         max-height: 200px;
         padding: 10px;
-        justify-content: center;
     }
 
     .product p, .product strong {
@@ -134,37 +129,32 @@ nav {
     }
 
 
+
 .section-title2 {
-    text-align: left; /* Optional for centering text horizontally */
-    padding: 20px; /* Optional padding for spacing */
+    text-align: left;
+    padding: 20px;
     margin-left: 50px;
     margin-right: 50px;
     background-color: white;
     margin-bottom: 20px;
 }
+
 .content-section2 {
-    text-align: center; /* Optional for centering text horizontally */
-    padding: 20px; /* Optional padding for spacing */
+    text-align: center;
+    padding: 20px;
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center the items horizontally */
+    justify-content: center;
 }
 
 .category {
     display: flex;
     align-items: center;
-    padding: 20px; /* Add spacing between categories */
+    padding: 20px;
 }
 
-    .category p {
-        margin: 0px; /* Remove default paragraph margins */
-    }
-
-    .category img {
-        margin-left: 10px; /* Add spacing between text and images */
-    }
 
 
 .section-title3 {
@@ -174,85 +164,68 @@ nav {
     margin-right: 50px;
     margin-bottom: 20px;
 }
+
 .content-section3 {
-    
-    overflow: hidden; /* Hide any overflowing content */
     display: flex; /* Enable flexbox layout */
     flex-direction: column;
     text-align: center; /* Optional for centering text horizontally */
     padding: 20px; /* Optional padding for spacing */
     margin-left: 50px;
     margin-right: 50px;
-    height: 150px;
 }
+
     .content-section3 img {
-        width: 100%;
-        height: 100%;
+        width: 100%; /* Make the image responsive to its container */
+        height: auto; /* Automatically adjust the height to maintain aspect ratio */
         object-fit: cover; /* The image will be sized to cover the container, maintaining its aspect ratio */
     }
 
 .section-title4 {
-    background-color: white;
     text-align: left; /* Optional for centering text horizontally */
     padding: 20px; /* Optional padding for spacing */
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
 }
+
 .content-section4 {
     text-align: left; /* Optional for centering text horizontally */
     padding: 20px; /* Optional padding for spacing */
     margin-left: 50px;
     margin-right: 50px;
     display: flex; /* Enable flexbox layout */
-}
-.product1 {
-    flex: 0 0 calc(30% - 80px);
     justify-content: space-between;
-    height: 100%;
-    background-color: aqua;
-    padding: 10px;
-    margin-left: 10px;
 }
-.product1:nth-child(2) {
-    background-color: yellow;
-    padding: 10px;
-}
-.product1:nth-child(3) {
-    background-color: orange;
-    padding: 10px;
-}
-.product1:nth-child(4) {
-    background-color: lightgreen;
+
+.product1 {
+    flex: 0 0 calc(30% - 10px); /* Use margin-right for spacing */
     padding: 10px;
 }
 
 .section-title5 {
-    background-color: whitesmoke;
     text-align: left; /* Optional for centering text horizontally */
     padding: 20px; /* Optional padding for spacing */
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
 }
+
 .content-section5 {
-    text-align: left; /* Optional for centering text horizontally */
-    padding: 20px; /* Optional padding for spacing */
-    margin-left: 50px;
-    margin-right: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Create flexible grid columns */
     gap: 10px; /* Adjust the gap as needed */
 }
+
 .image-container1 {
     background-color: white;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 200px;
     padding: 10px;
+    min-height: 200px;
 }
+
     .image-container1 img {
         max-width: 100%;
         max-height: 100%;
@@ -260,23 +233,27 @@ nav {
     }
 
 .section-title6 {
-    float: left;
     background-color: white;
     text-align: left; /* Optional for centering text horizontally */
     padding: 20px; /* Optional padding for spacing */
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 20px; /* Reduce the right margin */
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    align-items: center; /* Center the content */
     width: 60%;
 }
+
 .content-section6 {
-    text-align: left; /* Optional for centering text horizontally */
-    padding: 20px; /* Optional padding for spacing */
+    text-align: left;
+    padding: 20px;
     margin-left: 50px;
     margin-right: 50px;
     display: flex;
     flex-wrap: wrap;
 }
+
 .trend-item {
     flex: 1;
     margin: 10px;
@@ -286,13 +263,22 @@ nav {
     text-align: center;
 }
 
-    .trend-item img {
+.right-image {
+    flex: 0 0 auto;
+    margin-left: auto; /* Push to the right */
+}
+
+    .right-image img {
         max-width: 100%;
     }
 
-    .trend-item p {
-        margin-top: 10px;
-    }
+.trend-item img {
+    max-width: 100%;
+}
+
+.trend-item p {
+    margin-top: 10px;
+}
 
 .section-title7 {
     background-color: whitesmoke;
@@ -301,38 +287,45 @@ nav {
     margin-left: 50px;
     margin-right: 50px;
 }
+
 .content-section7 {
-    text-align: left; /* Optional for centering text horizontally */
-    padding: 20px; /* Optional padding for spacing */
+    text-align: left;
+    padding: 20px;
     margin-left: 50px;
     margin-right: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Create flexible grid columns */
-    gap: 10px; /* Adjust the gap as needed */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; /* Increased the gap for better spacing */
+    justify-items: center; /* Center items horizontally */
 }
-    .content-section7 img{
-        height: 150px;
-        width: 100%;
+
+    .content-section7 img {
+        max-width: 100%;
+        height: auto; /* Maintain the aspect ratio */
     }
 
-    .section-title8 {
-        background-color: whitesmoke;
-        text-align: left; /* Optional for centering text horizontally */
-        padding: 20px; /* Optional padding for spacing */
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 20px;
-    }
+
+.section-title8 {
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
 .slider {
     width: 100%;
     height: 200px;
     overflow: hidden;
     position: relative;
 }
+
     .slider img {
         max-width: 100%;
         max-height: 200px;
     }
+
 .slide {
     width: 100%;
     height: 100%;
@@ -341,48 +334,45 @@ nav {
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
+
     .slide.active {
         opacity: 1;
     }
+
 .section-title9 {
     background-color: whitesmoke;
-    text-align: left; /* Optional for centering text horizontally */
-    padding: 20px; /* Optional padding for spacing */
+    text-align: left;
+    padding: 20px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
 }
+
 .content-section9 {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    flex-wrap: wrap;
 }
+
 .flex-container {
     display: flex;
-    flex-direction: row; /* Arrange items in a row */
-    flex-wrap: wrap; /* Allow items to wrap */
-    gap: 10px; /* Adjust the gap as needed */
+    flex-wrap: wrap;
+    gap: 10px;
     margin-bottom: 20px;
 }
+
     .flex-container p {
-        flex: 1; /* Distribute available space equally */
-        background-color: lightgray; /* Add a background color for clarity */
+        flex: 1;
+        background-color: lightgray;
         padding: 10px;
         margin: 0;
     }
 
+/*<!--~~~~~~~~~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~~~~~~~~~-->*/
 
-
-
-
-
-
-
-
-
-/*FOOTER*/
 .Footer-main {
     background-color: #333;
 }
+
 
 footer {
     background-color: #333;
