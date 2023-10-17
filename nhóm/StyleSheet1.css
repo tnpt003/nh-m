@@ -7,6 +7,11 @@
     margin: auto;
 }
 
+a {
+    color: black; /* Set text color for the link (href) */
+    text-decoration: none; /* Remove underline from the link */
+}
+
 /*<!--~~~~~~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~~~~~~-->*/
 
 
@@ -89,7 +94,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px; /* Adjust the height to your needs */
+    height: 100%; /* Adjust the height to your needs */
 }
 
     .big-banner img {
@@ -194,13 +199,29 @@ nav a {
     margin-left: 50px;
     margin-right: 50px;
     display: flex; /* Enable flexbox layout */
-    justify-content: space-between;
 }
 
 .product1 {
-    flex: 0 0 calc(30% - 10px); /* Use margin-right for spacing */
+    flex: 0 0 calc(30% - 80px); /* Use margin-right for spacing */
     padding: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 10px;
 }
+    .product1:nth-child(2) {
+        background-color: yellow;
+        padding: 10px;
+    }
+
+    .product1:nth-child(3) {
+        background-color: orange;
+        padding: 10px;
+    }
+
+    .product1:nth-child(4) {
+        background-color: lightgreen;
+        padding: 10px;
+    }
 
 .section-title5 {
     text-align: left; /* Optional for centering text horizontally */
@@ -265,7 +286,7 @@ nav a {
 
 .right-image {
     flex: 0 0 auto;
-    margin-left: auto; /* Push to the right */
+    margin-right: auto; /* Push to the right */
 }
 
     .right-image img {
@@ -372,7 +393,6 @@ nav a {
 .Footer-main {
     background-color: #333;
 }
-
 
 footer {
     background-color: #333;

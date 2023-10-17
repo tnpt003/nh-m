@@ -67,7 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HtmlPage1.html" />
+    <Content Include="Master_Layout.html" />
+    <Content Include="Product_Detail.html" />
     <Content Include="hình\24h trend\1696920350-606-local.jpg" />
     <Content Include="hình\24h trend\1696950787-581-local.jpg" />
     <Content Include="hình\24h trend\1696996463-574-local.jpg" />
