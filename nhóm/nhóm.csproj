@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Master_Layout.html" />
+    <Content Include="ProductDetail.js" />
     <Content Include="Product_Detail.html" />
     <Content Include="hình\24h trend\1696920350-606-local.jpg" />
     <Content Include="hình\24h trend\1696950787-581-local.jpg" />
