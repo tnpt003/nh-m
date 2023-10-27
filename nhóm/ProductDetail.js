@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     productLinks.forEach((link) => {
         link.addEventListener('click', (e) => {
-            e.preventDefault();
+            e.preventDefault();   
 
             const productId = link.getAttribute('data-product');
             if (productId === '1') {
