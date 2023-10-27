@@ -11,6 +11,11 @@ a {
     color: black; /* Set text color for the link (href) */
     text-decoration: none; /* Remove underline from the link */
 }
+.scale {
+    width: 100%;
+    max-width: 1980px; /* You can set a maximum width if needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
 
 /*<!--~~~~~~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~~~~~~-->*/
 
@@ -114,6 +119,7 @@ nav a {
 .content-section1 {
     display: flex;
     margin: 20px;
+    justify-content: center;
 }
 
 .product {

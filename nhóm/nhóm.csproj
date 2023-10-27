@@ -123,8 +123,8 @@
     <Content Include="hình\Xu hướng mua sắm\vn-11134207-7qukw-lg1qdi98i0yy75.jpg" />
     <Content Include="hình\Xu hướng mua sắm\vn-11134207-7qukw-lhvwjkij256p40.jpg" />
     <Content Include="hình\Xu hướng mua sắm\vn-11134207-7qukw-lihs6xnexkp875.jpg" />
-    <Content Include="asd.js" />
-    <Content Include="JavaScript.js" />
+    <Content Include="XemThem.js" />
+    <Content Include="Slider.js" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
