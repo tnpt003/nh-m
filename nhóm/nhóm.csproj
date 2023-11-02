@@ -70,6 +70,7 @@
     <Content Include="Home.css" />
     <Content Include="Home.html" />
     <Content Include="Master_Layout.html" />
+    <Content Include="Product_Detail.css" />
     <Content Include="Product_Detail.js" />
     <Content Include="Product_Detail.html" />
     <Content Include="hình\24h trend\1696920350-606-local.jpg" />
