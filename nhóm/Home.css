@@ -81,6 +81,7 @@
         object-fit: cover; /* The image will be sized to cover the container, maintaining its aspect ratio */
     }
 
+
 .section-title4 {
     text-align: left; /* Optional for centering text horizontally */
     padding: 20px; /* Optional padding for spacing */
@@ -120,6 +121,7 @@
         padding: 10px;
     }
 
+
 .section-title5 {
     text-align: left; /* Optional for centering text horizontally */
     padding: 20px; /* Optional padding for spacing */
@@ -149,6 +151,7 @@
         max-height: 100%;
         object-fit: cover;
     }
+
 
 .section-title6 {
     background-color: white;
@@ -197,6 +200,7 @@
 .trend-item p {
     margin-top: 10px;
 }
+
 
 .section-title7 {
     background-color: whitesmoke;
@@ -256,6 +260,7 @@
     .slide.active {
         opacity: 1;
     }
+
 
 .section-title9 {
     background-color: whitesmoke;
