@@ -67,8 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Home.css" />
+    <Content Include="Home.html" />
     <Content Include="Master_Layout.html" />
-    <Content Include="ProductDetail.js" />
+    <Content Include="Product_Detail.js" />
     <Content Include="Product_Detail.html" />
     <Content Include="hình\24h trend\1696920350-606-local.jpg" />
     <Content Include="hình\24h trend\1696950787-581-local.jpg" />
@@ -123,9 +125,9 @@
     <Content Include="hình\Xu hướng mua sắm\vn-11134207-7qukw-lg1qdi98i0yy75.jpg" />
     <Content Include="hình\Xu hướng mua sắm\vn-11134207-7qukw-lhvwjkij256p40.jpg" />
     <Content Include="hình\Xu hướng mua sắm\vn-11134207-7qukw-lihs6xnexkp875.jpg" />
-    <Content Include="XemThem.js" />
+    <Content Include="Xem_Them.js" />
     <Content Include="Slider.js" />
-    <Content Include="StyleSheet1.css" />
+    <Content Include="Master_Layout.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
