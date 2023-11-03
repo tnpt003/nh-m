@@ -56,6 +56,48 @@ nav a {
     color: #999;
 }
 
+body {
+}
+
+.alert {
+    display: flex;
+    height: 70vh;
+    width: 1300px;
+    justify-content: center;
+    align-items: center;
+}
+
+    .alert i {
+        width: 100%;
+        font-size: 100px;
+    }
+
+    .alert p {
+        font-size: small;
+    }
+
+    .alert a {
+        text-decoration: none;
+    }
+
+    .alert .back {
+        display: flex;
+    }
+
+        .alert .back i {
+            width: 30px;
+            font-size: 18px;
+        }
+
+        .alert .back a {
+            color: black;
+        }
+
+            .alert .back a:hover {
+                color: blue;
+                text-decoration: underline;
+            }
+
 .input-container input {
     padding-left: 30px; /* Adjust this value to suit your design */
 }
