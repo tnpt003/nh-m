@@ -70,6 +70,7 @@
     <Content Include="cart.html" />
     <Content Include="Home.css" />
     <Content Include="Home.html" />
+    <Content Include="Login.html" />
     <Content Include="Master_Layout.html" />
     <Content Include="Product_Detail.css" />
     <Content Include="Product_Detail.js" />
@@ -127,6 +128,7 @@
     <Content Include="hình\Xu hướng mua sắm\vn-11134207-7qukw-lg1qdi98i0yy75.jpg" />
     <Content Include="hình\Xu hướng mua sắm\vn-11134207-7qukw-lhvwjkij256p40.jpg" />
     <Content Include="hình\Xu hướng mua sắm\vn-11134207-7qukw-lihs6xnexkp875.jpg" />
+    <Content Include="Login.css" />
     <Content Include="Xem_Them.js" />
     <Content Include="Slider.js" />
     <Content Include="Master_Layout.css" />
